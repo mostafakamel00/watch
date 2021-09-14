@@ -1,0 +1,102 @@
+/*start media query*/
+/*phone and tab screen*/
+@media (max-width: 767px) {
+  .navbar .navbar-collapse .navbar-nav a {
+    margin: auto;
+  }
+  .navbar .navbar-collapse .navbar-nav i {
+    margin: auto;
+    padding: 10px;
+  }
+  .header {
+    background-attachment: unset;
+  }
+  .watch-img-two {
+    background-attachment: unset;
+    background-position: left center;
+  }
+  .header .h1 {
+    background: rgba(0, 0, 0, 0.2);
+    color: #045089;
+    border-radius: 76px;
+  }
+  .swimmer {
+    background-attachment: unset;
+  }
+  .watch-img {
+    background-attachment: unset;
+  }
+  .images .row .col-md-4 img {
+    display: block;
+    margin: auto;
+  }
+  .title .title-img img {
+    width: 300px;
+  }
+  .images-two .our-img img {
+    width: 32%;
+  }
+  .buy .buy-now {
+    padding: 0;
+    margin: 0;
+  }
+  .buy .buy-now button {
+    display: block;
+    margin: 10px auto;
+  }
+  .footer .row .col-md-4 h3 {
+    text-align: center;
+  }
+  .footer .row .col-md-4 .social h5 {
+    text-align: center;
+  }
+  .footer .row .col-md-4 form button {
+    margin: 10px auto;
+    display: block;
+  }
+}
+/*media screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar .navbar-collapse .navbar-nav a {
+    margin: auto;
+  }
+  .navbar .navbar-collapse .navbar-nav i {
+    margin: auto;
+    padding: 10px;
+  }
+  .images .row .col-md-4 img {
+    width: 100%;
+  }
+  .images-two .our-img img {
+    width: 32%;
+    height: 100%;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+  .footer .row .footer-two ul li i {
+    display: block;
+  }
+  .footer .row .col-md-4 .social {
+    position: relative;
+    top: 13px;
+  }
+  .footer .row .col-md-4 button {
+    margin: 10px auto;
+    display: block;
+  }
+  .footer .row .footer-three h3 {
+    font-size: 26px;
+  }
+  .footer .row .col-md-4 form button {
+    margin: 15vh auto;
+    display: block;
+  }
+}
+/*large screen*/
+@media (min-width: 992) and (max-width: 1199px) {
+}
+/*exrta large screen*/
+@media (min-width: 1200px) {
+}
+/*end media query*/
